@@ -89,7 +89,7 @@ flex-wrap: wrap;
    visibility: visible;
   }
   &:nth-child(6){
-    margin-bottom: 400%;
+    margin-bottom: 500%;
   }
 }
 .user-menu{
@@ -242,8 +242,7 @@ flex-wrap: wrap;
 .cases-track{
   width: 80%;
   height: 6px;
-  background: #81C926;
-  opacity: 0.2;
+  background: rgba(129,201,38,.2);
   border-radius: 7px;
   position: relative;
   &::after{
