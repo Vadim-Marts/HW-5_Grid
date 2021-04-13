@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HW-4</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+
+  <!-- Style -->
+  <link rel="stylesheet" href="css/reset.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="wrapper">
+    <!--Sidebar-->
+    <div class="sidebar"> 
+      <div class="logo"> <img src="images/logo.png" alt="user-logo"> </div>
+      <!--Navbar-->
+      <div class="navbar">  
+        <div class="navbar-title">NextCase</div>
+        <!-- Menu -->
+        <nav class="menu">
+          <ul class="menu-list">
+            <li class="menu-item"> 
+              <img src="images/home.png" alt="home">
+              <a href="#">home</a>
+            </li>
+            <li class="menu-item"> 
+              <img src="images/alerts.png" alt="alerts">
+              <a href="#">alerts</a>
+            </li>
+            <a href="#"></a>
+            <li class="menu-item"> 
+              <img src="images/case.png" alt="case">
+              <a href="#">add case</a>
+            </li>
+            <li class="menu-item"> 
+              <img src="images/supervisor.png" alt="supervisor">
+              <a href="#">supervisor</a>
+            </li>
+            <li class="menu-item"> 
+              <img src="images/reports.png" alt="reports">
+              <a href="#">reports</a>
+            </li>
+            <li class="menu-item"> 
+              <img src="images/support.png" alt="support">
+              <a href="#">support</a>
+            </li>
+            <li class="menu-item"> 
+              <img src="images/settings.png" alt="settings">
+              <a href="#">setings</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <div class="user-menu">
+        <img class="user-logo" src="images/user-logo.png" alt="user logo" >
+        <p class="user-name">Andrew Lloyd</p>
+      </div>
+    </div>
+    <!-- Main -->
+    <div class="main">
+      <header class="header">
+        <div class="main-title">worker dashboard</div>
+        <div class="header-btn">get next case</div>
+        <div class="date">Jan, 2016 - Dec, 2016 
+          <img class="calendar" src="images/date.png" alt="calendar" ></div>
+      </header>
+      <div class="block-items">
+        <div class="block-item">
+          <div class="main-item-title">Completion Rate by Queue <span></span></div>
+          <img src="images/graph-compl.jpg" alt="graph">
+        </div>
+        <div class="block-item">
+          <div class="main-item-title">Paused Cases <span></span></div>
+          <div class="cases-text">5 cases</div>
+          <div class="cases-track"></div>
+        </div>
+        <div class="block-item">
+          <div class="main-item-title">Utilization by Hour <span></span></div>
+          <img src="images/utilization.png" alt="graph">
+        </div>
+        <div class="block-item">
+          <div class="main-item-title">Cumulative Utilization <span></span></div>
+          <img src="images/comulative.png" alt="graph">
+        </div>
+        <div class="block-item">
+          <div class="main-item-title">Cases Worked by Queue <span></span></div>
+          <img src="images/cases.png" alt="graph">
+          <img src="images/speed.png" alt="speed">
+        </div>
+        <div class="block-item">
+          <div class="main-item-title">Average Transaction Time by Queue <span></span></div>
+          <img src="images/average.png" alt="graph">
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <script src="script/script.js"></script>
+</body>
+</html>
